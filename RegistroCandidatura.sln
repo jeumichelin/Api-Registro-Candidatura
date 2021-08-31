@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroCandidatura.Api", "src\RegistroCandidatura.Api\RegistroCandidatura.Api.csproj", "{3E84846A-DCB4-4C19-8DC0-729621BD1A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroCandidatura.Domain", "src\RegistroCandidatura.Domain\RegistroCandidatura.Domain.csproj", "{16C86615-432A-42FF-AAE5-B3419B50D524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroCandidatura.Infra.Data", "src\RegistroCandidatura.Infra.Data\RegistroCandidatura.Infra.Data.csproj", "{1EEB18B1-C7C5-4FC4-89D3-74389850920B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroCandidatura.Infra.CrossCutting.Ioc", "src\RegistroCandidatura.Infra.CrossCutting.Ioc\RegistroCandidatura.Infra.CrossCutting.Ioc.csproj", "{5155FAF6-6AE0-4D68-AF8F-024C03AC4A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroCandidatura.Infra.ExternalServices.BlobStorage", "src\RegistroCandidatura.Infra.ExternalServices.BlobStorage\RegistroCandidatura.Infra.ExternalServices.BlobStorage.csproj", "{63B19D52-333F-4BE0-A196-DA3EF1F20AF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E84846A-DCB4-4C19-8DC0-729621BD1A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E84846A-DCB4-4C19-8DC0-729621BD1A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E84846A-DCB4-4C19-8DC0-729621BD1A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E84846A-DCB4-4C19-8DC0-729621BD1A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C86615-432A-42FF-AAE5-B3419B50D524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C86615-432A-42FF-AAE5-B3419B50D524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C86615-432A-42FF-AAE5-B3419B50D524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C86615-432A-42FF-AAE5-B3419B50D524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEB18B1-C7C5-4FC4-89D3-74389850920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEB18B1-C7C5-4FC4-89D3-74389850920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEB18B1-C7C5-4FC4-89D3-74389850920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEB18B1-C7C5-4FC4-89D3-74389850920B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5155FAF6-6AE0-4D68-AF8F-024C03AC4A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5155FAF6-6AE0-4D68-AF8F-024C03AC4A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5155FAF6-6AE0-4D68-AF8F-024C03AC4A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5155FAF6-6AE0-4D68-AF8F-024C03AC4A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B19D52-333F-4BE0-A196-DA3EF1F20AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B19D52-333F-4BE0-A196-DA3EF1F20AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B19D52-333F-4BE0-A196-DA3EF1F20AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B19D52-333F-4BE0-A196-DA3EF1F20AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
